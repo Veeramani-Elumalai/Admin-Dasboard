@@ -51,11 +51,6 @@
     padding: 20px 20px;
 }
 
-.sidebar_tools{
-    display:grid;
-    grid-template-columns: auto 1fr;
-}
-
 ul{
     list-style-type: none;
 }
