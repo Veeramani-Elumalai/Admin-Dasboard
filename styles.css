@@ -26,6 +26,8 @@
     grid-column: 1/3;
     gap: 10px;
     padding:0px 20px;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .search_box{
@@ -43,6 +45,7 @@
     grid-column: 1/3;
     grid-row: 2;
     padding: 0px 20px;
+    font-weight: bold;
 }
 
 .sidebar{
@@ -54,6 +57,7 @@
     height: 100vh;
     background-color: rgb(1, 131, 218);
     color: white;
+    font-weight: bold;
 }
 
 .sidebar div,
@@ -62,6 +66,12 @@
     align-items: center;
     gap:10px;
     padding: 5px 20px;
+}
+
+.sidebar img{
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
 }
 
 ul{
@@ -77,4 +87,13 @@ ul{
 [src$='.png']{
     width: 50px;
     height: 50px;
+}
+
+button{
+    color: white;
+    background-color: rgb(1, 131, 218);
+    border-radius: 10px;
+    padding:5px 10px;
+    margin: 10px;
+    border: none;
 }
