@@ -37,6 +37,12 @@ body{
     background-color: rgb(226, 226, 226);
 }
 
+.header_bottom{
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto;
+    align-items: center;
+}
+
 [src$='.svg']{
     width: 30px;
     height:30px;
