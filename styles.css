@@ -7,3 +7,42 @@
 body{
     color: skyblue;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr ;
+    grid-template-rows: 1fr 4fr;
+}
+
+.header{
+    grid-column: 1/3;
+    grid-row: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header_top{
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto; 
+    align-items: center;
+    grid-column: 1/3;
+    gap: 10px;
+}
+
+.search_box{
+    border: 2px solid gray;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+[src$='.svg']{
+    width: 30px;
+    height:30px;
+}
+
+[src$='.png']{
+    width: 50px;
+    height: 50px;
+}
