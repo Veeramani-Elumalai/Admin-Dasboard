@@ -49,6 +49,15 @@
     font-weight: bold;
 }
 
+.dashboard{
+    font-size: 26px;
+}
+
+.dashboard [src$='.svg']{
+    height: 40px;
+    width: 40px;
+}
+
 .sidebar{
     display: grid;
     grid-column: 1/2;
