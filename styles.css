@@ -8,7 +8,7 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr ;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
 }
 
 .header{
@@ -17,6 +17,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     box-shadow:10px 10px 10px gray;
+    height: 150px;
 }
 
 .header_top{
