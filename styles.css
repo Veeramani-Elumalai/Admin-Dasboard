@@ -106,11 +106,19 @@
 
 .an_msg{
     border-bottom: 1px solid gray;
+}
+
+.announcement_container{
     box-shadow: 10px 10px 10px 10px gray;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .trending{
     grid-column: 3/4;
+    box-shadow: 10px 10px 10px 10px gray;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 ul{
