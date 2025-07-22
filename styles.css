@@ -123,6 +123,7 @@
 .trend_prof{
     display: grid;
     grid-template-columns: auto 1fr;
+    margin: 10px;
 }
 
 .trend_prof [src$='.svg']{
