@@ -99,6 +99,16 @@
     grid-column: 1/4;
 }
 
+.trend_prof{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.trend_prof [src$='.svg']{
+    height: 40px;
+    width: 40px;
+}
+
 .projects{
     display: grid;
     grid-template-columns: 1fr 1fr;
