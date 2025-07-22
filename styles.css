@@ -152,6 +152,13 @@
     border-left-width: 5px;
 }
 
+.cool_project_icons{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+    gap: 5px;
+}
+
 .announcements{
     grid-column: 3/4;
     grid-row: 1;
